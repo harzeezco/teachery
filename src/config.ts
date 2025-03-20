@@ -1,6 +1,6 @@
 import { Pathnames } from 'next-intl/navigation';
 
-export const locales = ['en', 'ar'] as const;
+export const locales = ['ar', 'en'] as const;
 
 export const pathnames = {
   // If all locales use the same pathname, a single
