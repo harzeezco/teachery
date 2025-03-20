@@ -29,6 +29,6 @@ const Homepage = () => (
     <FAQSection />
     <CTA />
   </main>
-  );
+);
 
 export default Homepage;

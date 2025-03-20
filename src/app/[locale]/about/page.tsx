@@ -16,6 +16,6 @@ const AboutPage = () => (
   <main className='mt-[90px]'>
     <HeroSection />
   </main>
-  );
+);
 
 export default AboutPage;
