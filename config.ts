@@ -5,10 +5,10 @@ export type ConfigProps = {
 };
 
 const config = {
-  appName: 'Creative Endeavour',
+  appName: 'teachr',
   appDescription:
     'We partner with organizations to deliver innovative UI/UX design and effective growth strategies, helping you enhance customer experiences and achieve measurable growth.',
-  domainName: 'creativeendeavour.com',
+  domainName: 'teachr.com',
 } as ConfigProps;
 
 export default config;

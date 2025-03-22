@@ -91,7 +91,7 @@ export const Footer = () => {
               احصل على التطبيق
             </p>
 
-            <div className='mt-5 flex items-center gap-x-4'>
+            <div className='mt-5 flex items-center gap-x-4 max-sm:justify-end'>
               <Link href='/'>
                 <Image
                   alt='logo'
@@ -119,10 +119,10 @@ export const Footer = () => {
 
         <div
           className={cn(
-            'mx-auto mb-10 flex container justify-between max-sm:flex-col gap-y-10 sm:flex-wrap',
+            'mx-auto mb-5 flex container justify-between max-sm:flex-col gap-y-10 sm:flex-wrap',
           )}
         >
-          <div className='flex items-center gap-4'>
+          <div className='flex items-center gap-4 max-sm:justify-end'>
             <Link href='/'>
               <Image
                 alt='logo'
@@ -153,16 +153,25 @@ export const Footer = () => {
               />
             </Link>
           </div>
-          <div className='flex items-center gap-x-4'>
-            <p>© 2025 علم. جميع الحقوق محفوظة.</p>
-
-            <Link
-              className='text-right underline transition-all duration-300 hover:no-underline '
-              href={`/${locale}/about`}
-            >
-              سياسة الخصوصية
-            </Link>
+          <div className='flex items-center gap-x-4 max-sm:justify-end'>
+            <p>© 2025 علم. جميع الحقوق محفوظة</p>
           </div>
+        </div>
+
+        <div className='m container mb-10 flex justify-end gap-4'>
+          <Link
+            className='text-right underline transition-all duration-300 hover:no-underline '
+            href={`/${locale}/about`}
+          >
+            سياسة الخصوصية
+          </Link>
+
+          <Link
+            className='text-right underline transition-all duration-300 hover:no-underline '
+            href={`/${locale}/about`}
+          >
+            سياسة الخصوصية
+          </Link>
         </div>
       </footer>
     </div>

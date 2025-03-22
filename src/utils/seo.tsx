@@ -40,7 +40,7 @@ export const getSEOTags = ({
     title: openGraph?.title || config.appName,
     description: openGraph?.description || config.appDescription,
     card: 'summary_large_image',
-    creator: '@sanaam.sa',
+    creator: 'teachery',
   },
 
   ...(canonicalUrlRelative && {
@@ -61,7 +61,7 @@ export const renderSchemaTags = () => (
         url: `https://${config.domainName}/`,
         author: {
           '@type': 'COmpany',
-          name: 'Sanaam',
+          name: 'teachery',
         },
         datePublished: '2023-08-01',
         applicationCategory: 'EducationalApplication',

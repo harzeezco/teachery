@@ -90,6 +90,10 @@
 }
 
 @media screen and (max-width: 468px) {
+  .hero {
+    background-image: url('/images/hero-small.png');
+  }
+
   .cta {
     background-image: url('/images/cta-small.png');
   }

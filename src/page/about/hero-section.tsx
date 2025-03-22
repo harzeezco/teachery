@@ -7,8 +7,7 @@ export const HeroSection = () => (
   <section className='mt-10 pb-10'>
     <div className='privacy'>
       <div className='container flex flex-col items-center justify-center py-14 text-white'>
-        <p className='pt-5'>تاريخ السريان: [أدخل التاريخ]</p>
-        <h1 className='mb-5 mt-1 text-balance font-nebulica text-4xl font-medium'>
+        <h1 className='mb-5 mt-1 text-balance text-center font-nebulica text-4xl font-medium'>
           سياسة الخصوصية لمنصة علم
         </h1>
 
@@ -20,7 +19,7 @@ export const HeroSection = () => (
       </div>
     </div>
 
-    <div className='mx-auto mt-10 max-w-[550px] text-end text-[#475467]'>
+    <div className='mx-auto mt-10 max-w-[550px] text-end text-[#475467] max-sm:px-6'>
       <div>
         <h3 className='font-nebulica text-3xl font-medium text-[#101828]'>
           المعلومات التي نقوم بجمعها
@@ -51,7 +50,7 @@ export const HeroSection = () => (
           ب. المعلومات التي نجمعها تلقائيًا
         </p>
         <ul>
-          <li>
+          <li className='flex'>
             بيانات الجهاز (نوع الجهاز، نظام التشغيل، معرفات الجهاز
             الفريدة){' '}
             <span className='-translate-y-[30%] pl-2 text-3xl'>
